@@ -28,7 +28,7 @@ code will be released later!
 
 - **2024-10-04:** :fire: :fire: :fire: Congratulations! Our paper has been accepted by **ACM MMAsia 2024**！
 - **2024-10-21:** arXiv paper available.
-- **2024-10-22:** :fire: :fire: :fire: Congratulations! Our paper has been selected as an Oral presentation at **ACM MMAsia 2024**! 🎉
+- **2024-10-22:** Congratulations! Our paper has been selected as an Oral presentation at **ACM MMAsia 2024**! 🎉
 - **2024-10-24:** This repo is released.
 - **2024-11-24:** The LMHaze training and test sets have been released! 🎉 We will release training and test code soon~
 
