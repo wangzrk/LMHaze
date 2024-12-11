@@ -41,8 +41,9 @@ code will be released later!
 
 - [x] Build the repo
 - [x] arXiv version
-- [ ] Release code
+- [x] Release code
 - [x] Release dataset
+- [ ] Release logit generation code
 
 ## <a name="todo"></a> 📂 Dataset
 Due to storage capacity limitations, we have initially released the complete dataset at a resolution of 1200x800. The dataset has been divided into training and test sets following the settings described in the paper. The download instructions are as follows:
@@ -56,7 +57,7 @@ Due to storage capacity limitations, we have initially released the complete dat
 
 This codebase was tested with the following environment configurations:
 
-- Ubuntu 22.04
+- Ubuntu 20.04
 - CUDA 11.7
 - Python 3.9
 - PyTorch 2.0.1 + cu117
@@ -80,7 +81,7 @@ pip install -r requirements.txt
 
 1. Please download the corresponding training datasets and put them in the folder `./datasets/LMHaze/train`. Download the testing datasets and put them in the folder `./datasets/LMHaze/test`.
 
-2. Please check the Dehazing/options/train_MoEMamba_LMHaze.yml file to modify the dataset path and training/testing settings.
+2. Please check the `Dehazing/options/train_MoEMamba_LMHaze.yml` file to modify the dataset path and training/testing settings.
 
 3. Follow the instructions below to begin training our model.
 
@@ -88,9 +89,8 @@ pip install -r requirements.txt
 
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=1234 Dehazing/basicsr/train.py -opt Dehazing/options/train_MoEMamba_LMHaze.yml --launcher pytorch
 
-# if you want to test on other dataset, please change the Dehazing/options/train_MoEMamba_LMHaze.yml file.
-
 ```
+if you want to test on other dataset, please change the `Dehazing/options/train_MoEMamba_LMHaze.yml` file.
 
 ## <a name="testing"></a> 🔥 Testing
 
@@ -98,16 +98,15 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=1234 Dehazin
 
 1. Please download the corresponding training datasets and put them in the folder `./datasets/LMHaze/train`. Download the testing datasets and put them in the folder `./datasets/LMHaze/test`.
 
-2. Please check the Dehazing/options/test_MoEMamba_LMHaze.yml file to modify the dataset path and testing settings.
+2. Please check the `Dehazing/options/test_MoEMamba_LMHaze.yml` file to modify the dataset path and testing settings.
 
 3. Follow the instructions below to begin testing our model.
 ```
 
 python Dehazing/basicsr/test.py -opt Dehazing/options/test_MoEMamba_LMHaze.yml
 
-# if you want to test on other dataset, please change the Dehazing/options/test_MoEMamba_LMHaze.yml file.
-
 ```
+if you want to test on other dataset, please change the `Dehazing/options/test_MoEMamba_LMHaze.yml` file.
 
 
 ## <a name="cite"></a> 🥰 Citation
