@@ -4,7 +4,7 @@
 
 
 ## LMHaze
-[MMAsia 2024] Official implementation of our paper "LMHaze: Intensity-aware Image Dehazing with a Large-scale Multi-intensity Real Haze Dataset".
+[ACM MM Asia 2024 Oral] Official implementation of our paper "LMHaze: Intensity-aware Image Dehazing with a Large-scale Multi-intensity Real Haze Dataset".
 
 ### [[Paper](https://arxiv.org/abs/2410.16095)]
 [Ruikun Zhang](https://scholar.google.com/citations?user=8rabqgoAAAAJ&hl=en), [Hao Yang](https://github.com/noxsine), [Yan Yang](https://scholar.google.com/citations?user=IF0xw34AAAAJ&hl=en), Ying Fu, and [Liyuan Pan](https://scholar.google.com/citations?user=kAt6-AIAAAAJ&hl=en)\*
