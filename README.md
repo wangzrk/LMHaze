@@ -35,6 +35,7 @@ code will be released later!
 - **2024-10-22:** Congratulations! Our paper has been selected as an Oral presentation at **ACM MMAsia 2024**! 🎉
 - **2024-10-24:** This repo is released.
 - **2024-11-24:** The LMHaze training and test sets have been released! 🎉 We will release training and test code soon~
+- **2024-12-10:** The LMHaze training and test codes have been released! 
 
 
 ## <a name="todo"></a> ☑️ TODO
