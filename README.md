@@ -44,7 +44,7 @@ code will be released later!
 - [x] arXiv version
 - [x] Release code
 - [x] Release dataset
-- [ ] Release logit generation code
+- [x] Release logit generation code
 
 ## <a name="todo"></a> 📂 Dataset
 Due to storage capacity limitations, we have initially released the complete dataset at a resolution of 1200x800. The dataset has been divided into training and test sets following the settings described in the paper. The download instructions are as follows:
